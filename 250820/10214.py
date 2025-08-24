@@ -1,0 +1,25 @@
+# Baseball
+
+# T: 테스트 케이스 수
+# 9줄
+
+T = int(input())
+
+for i in range(T):
+    Y_score = 0
+    K_score = 0
+
+    for j in range(9):
+        Y, K = map(int, input().split())
+
+        Y_score += Y
+        K_score += K
+
+    if Y_score > K_score:
+        print("Yonsei")
+    elif Y_score < K_score:
+        print("Korea")
+    else:
+        print("Draw")
+
+
