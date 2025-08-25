@@ -2,7 +2,7 @@
 N = list()
 for j in range(10):
     N.append(int(input()))
-print(N)
+# print(N)
 
 idx = 0
 total = 0; sum = 0
@@ -16,5 +16,5 @@ for i in N:
         sum += i
         idx += 1
 
-print(total, sum)
+# print(total, sum)
 print(total - sum)
